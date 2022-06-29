@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+
+body {
+  background-color: whitesmoke;
+  /* display: flex; */
+  justify-content: center;
+  /* height: 100vh; */
+  /* overflow-y: scroll; */
+  margin: 20px;
+  font-family: "Gochi Hand", sans-serif;
+}
+
+.inputList {
+  outline: none;
+  width: 400px;
+  height: 10px;
+  background-color: whitesmoke;
+  padding: 12px 12px 12px;
+  margin-right: 15px;
+  border: 1px solid transparent;
+  border-bottom-color: #ccc;
+}
+
+.inputList:focus {
+  padding: 12px 12px 12px;
+  border-color: #0a9db7;
+  transition: 0.5s;
+}
+
+.inputList[type="text"] {
+  font-family: "Gochi Hand", sans-serif;
+  font-size: 20px;
+}
+
+.addList {
+  font-family: "Gochi Hand", sans-serif;
+  width: 70px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.addList:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.addTask {
+  font-family: "Gochi Hand", sans-serif;
+  width: 70px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.addTask:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+#todoboard {
+  overflow-x: auto;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 40px;
+}
+
+.listDiv {
+  vertical-align: top;
+  margin: 0px 12px 100px 0px;
+  display: inline-block;
+  position: relative;
+  width: 360px;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  list-style-type: none;
+  user-select: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+.listName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+  width: 340px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid;
+  position: relative;
+  align-items: center;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.checkbox {
+  margin: 0 10px;
+}
+
+.taskName {
+  width: 300px;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete {
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.inputTask {
+  width: 210px;
+  outline: none;
+  height: 10px;
+  background-color: whitesmoke;
+  padding: 12px 12px 12px;
+  margin: 0 15px 15px 0;
+  border: 1px solid transparent;
+  border-bottom-color: #ccc;
+}
+
+.inputTask[type="text"] {
+  font-family: "Gochi Hand", sans-serif;
+  /* font-size: 10px; */
+}
+
+footer {
+  position: fixed;
+  font-size: 12px;
+  left: 0;
+  bottom: 0;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  background-color: whitesmoke;
+}
